@@ -2,7 +2,7 @@
   "name": "posthtml-noopener",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "PostHTML plugin to add 'noopener noreferrer' to <a target=\"_blank\"> tags",
+  "description": "PostHTML plugin to add 'noopener noreferrer' to links that open in a new tab",
   "author": "Eric Liu (https://github.com/metonym)",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
