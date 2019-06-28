@@ -36,12 +36,12 @@ npm i posthtml-noopener
 ```js
 const fs = require('fs');
 const posthtml = require('posthtml');
-const { posthtmlNoopener } = require('posthtml-noopener');
+const { noopener } = require('posthtml-noopener');
 
 const html = fs.readFileSync('./index.html');
 
 posthtml()
-  .use(posthtmlNoopener())
+  .use(noopener())
   .process(html)
   .then(result => fs.writeFileSync('./after.html', result.html));
 ```
