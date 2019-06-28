@@ -1,12 +1,12 @@
 import posthtml from 'posthtml';
-import { posthtmlNoopener } from '../';
+import { noopener } from '../';
 import { testCases } from './__fixtures__/testCases';
 
 describe('posthtmlNoopener', () => {
   testCases.forEach(testCase => {
     test(`'${testCase.name}' matches the snapshot`, () => {
       posthtml()
-        .use(posthtmlNoopener())
+        .use(noopener())
         .process(testCase.input)
         .then((result: { html: string }) => {
           expect(result.html).toMatchSnapshot();
