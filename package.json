@@ -1,0 +1,54 @@
+{
+  "name": "posthtml-noopener",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "PostHTML plugin to add 'noopener noreferrer' to <a target=\"_blank\"> tags",
+  "author": "Eric Liu (https://github.com/metonym)",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "rm -rf lib && tsc -p tsconfig.prod.json",
+    "test": "jest",
+    "lint": "tslint --fix -p . -c tslint.json",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "posthtml": "^0.11.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@types/jest": "^24.0.15",
+    "husky": "^2.7.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metonym/posthtml-noopener.git"
+  },
+  "homepage": "https://github.com/metonym/posthtml-noopener",
+  "keywords": [
+    "html",
+    "posthtml",
+    "posthtml-plugin",
+    "noopener",
+    "noreferrer"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "bugs": "https://github.com/metonym/posthtml-noopener/issues"
+}
