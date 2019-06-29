@@ -1,4 +1,4 @@
-import { posthtmlNoopener } from './posthtmlNoopener';
+import { noopener } from './noopener';
 
-export default posthtmlNoopener;
-export { posthtmlNoopener, posthtmlNoopener as noopener };
+export default noopener;
+export { noopener, noopener as posthtmlNoopener };
