@@ -11,6 +11,8 @@ Anchor links with the `target="_blank"` attribute [are recommended to include](h
 
 Read more about the [`rel="noopener"` attribute](https://mathiasbynens.github.io/rel-noopener/).
 
+### [Changelog](CHANGELOG.md)
+
 **Before:**
 
 ```html
