@@ -41,6 +41,9 @@
     "semi": true,
     "singleQuote": true
   },
+  "jest": {
+    "preset": "ts-jest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/metonym/posthtml-noopener.git"
