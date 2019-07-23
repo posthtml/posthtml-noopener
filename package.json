@@ -44,6 +44,11 @@
   "jest": {
     "preset": "ts-jest"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/metonym/posthtml-noopener.git"
