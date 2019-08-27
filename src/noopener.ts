@@ -1,24 +1,20 @@
-import { INodeTargetBlank, ITree } from 'posthtml';
+import { PostHTMLTree } from 'posthtml';
 import { sameHost } from './sameHost';
 
 function noopener() {
-  return function plugin(tree: ITree) {
+  return function plugin(tree: PostHTMLTree) {
     tree.match(
       {
         tag: 'a',
-        attrs: {
-          href: new RegExp(/\S+/),
-          target: '_blank'
-        }
+        attrs: { target: '_blank', href: new RegExp(/\S+/) }
       },
       node => {
-        const { rel, href } = (node as INodeTargetBlank).attrs;
-
+        const { rel, href } = node.attrs!;
         const invalidRel = rel === undefined || !rel.trim();
         const notSameHost = !sameHost(href.trim());
 
         if (invalidRel && notSameHost) {
-          (node as INodeTargetBlank).attrs.rel = 'noopener noreferrer';
+          node.attrs!.rel = 'noopener noreferrer';
         }
 
         return node;

@@ -8,7 +8,7 @@ describe('posthtmlNoopener', () => {
       posthtml()
         .use(noopener())
         .process(testCase.input)
-        .then((result: { html: string }) => {
+        .then(result => {
           expect(result.html).toMatchSnapshot();
         });
     });
