@@ -63,7 +63,7 @@
     "noreferrer"
   ],
   "files": [
-    "lib/"
+    "lib"
   ],
   "bugs": "https://github.com/metonym/posthtml-noopener/issues"
 }
