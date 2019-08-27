@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 *   Add option to only add "noopener" attribute
 
+## [1.0.3](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.3) - 2019-08-27
+
+*   Upgrade PostHTML to 0.11.5 for TS typings
+
 ## [1.0.2](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.2) - 2019-08-17
 
 *   Update documentation
