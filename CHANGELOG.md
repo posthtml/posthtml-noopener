@@ -7,21 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-*   Add option to only add "noopener" attribute
+- Add option to only add "noopener" attribute
 
 ## [1.0.3](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.3) - 2019-08-27
 
-*   Upgrade PostHTML to 0.11.5 for TS typings
+- Upgrade PostHTML to 0.11.5 for TS typings
 
 ## [1.0.2](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.2) - 2019-08-17
 
-*   Update documentation
+- Update documentation
 
 ## [1.0.1](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.1) - 2019-06-28
 
-*   Add alias default export as `noopener` and `posthtmlNoopener` to allow more intuitive importing
-([fb990fc](https://github.com/metonym/posthtml-noopener/commit/fb990fcb939cc8622b41ad14aa62c6c9e941fe35))
+- Add alias default export as `noopener` and `posthtmlNoopener` to allow more intuitive importing
+  ([fb990fc](https://github.com/metonym/posthtml-noopener/commit/fb990fcb939cc8622b41ad14aa62c6c9e941fe35))
 
 ## 1.0.0 - 2019-06-27
 
-*   Initial release
+- Initial release
