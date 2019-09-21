@@ -1,8 +1,8 @@
-import { PostHTMLTree } from 'posthtml';
+import { PostHTML } from 'posthtml';
 import { sameHost } from './sameHost';
 
 function noopener() {
-  return function plugin(tree: PostHTMLTree) {
+  return function plugin(tree: PostHTML.Node) {
     tree.match(
       {
         tag: 'a',
