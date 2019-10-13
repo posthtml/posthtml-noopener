@@ -1,5 +1,5 @@
 import posthtml from 'posthtml';
-import { noopener } from '..';
+import { noopener } from '../src';
 import { testCases } from './__fixtures__/testCases';
 
 describe('posthtmlNoopener', () => {

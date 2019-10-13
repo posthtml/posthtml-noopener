@@ -1,4 +1,4 @@
-import { sameHost } from '../sameHost';
+import { sameHost } from '../src/sameHost';
 
 describe('sameHost', () => {
   test('""', () => {
