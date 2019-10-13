@@ -9,9 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add option to only add "noopener" attribute
 
+## [1.0.5](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.5) - 2019-10-13
+
+- Upgrade posthtml version from 0.11.16 to 0.12
+
+- Upgrade development dependencies (pretty-quick, husky, typescript)
+
 ## [1.0.4](https://github.com/metonym/posthtml-noopener/releases/tag/1.0.4) - 2019-09-20
 
-- Upgrade posthtml version from 0.15 to 0.16
+- Upgrade posthtml version from 0.11.15 to 0.11.16
 
 - Refactor typings
 
