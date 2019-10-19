@@ -58,9 +58,9 @@ See the [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/d
 
 [npm]: https://img.shields.io/npm/v/posthtml-noopener.svg?color=blue
 [npm-url]: https://npmjs.com/package/posthtml-noopener
-[deps]: https://david-dm.org/metonym/posthtml-noopener.svg
-[deps-url]: https://david-dm.org/metonym/posthtml-noopener
-[build]: https://travis-ci.com/metonym/posthtml-noopener.svg?branch=master
-[build-badge]: https://travis-ci.com/metonym/posthtml-noopener
-[codecov]: https://codecov.io/gh/metonym/posthtml-noopener
-[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/posthtml-noopener.svg
+[deps]: https://david-dm.org/posthtml/posthtml-noopener.svg
+[deps-url]: https://david-dm.org/posthtml/posthtml-noopener
+[build]: https://travis-ci.com/posthtml/posthtml-noopener.svg?branch=master
+[build-badge]: https://travis-ci.com/posthtml/posthtml-noopener
+[codecov]: https://codecov.io/gh/posthtml/posthtml-noopener
+[codecov-shield]: https://img.shields.io/codecov/c/github/posthtml/posthtml-noopener.svg
