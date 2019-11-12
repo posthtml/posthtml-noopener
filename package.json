@@ -25,7 +25,7 @@
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.0",
     "ts-jest": "^24.1.0",
-    "tslint": "^5.20.0",
+    "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.2"
   },
