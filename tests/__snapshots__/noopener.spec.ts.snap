@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`posthtmlNoopener 'Link to same host is ignored' matches the snapshot 1`] = `"<a href=\\"/\\" target=\\"_blank\\"></a>"`;
-
-exports[`posthtmlNoopener 'Link with empty \`href\` attribute is ignored' matches the snapshot 1`] = `"<a href=\\"\\" target=\\"_blank\\"></a>"`;
-
-exports[`posthtmlNoopener 'Link with empty \`rel\` attribute' matches the snapshot 1`] = `"<a href=\\"http://\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\"></a>"`;
-
-exports[`posthtmlNoopener 'Link without \`rel\` attribute' matches the snapshot 1`] = `"<a href=\\"http://\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\"></a>"`;
