@@ -4,56 +4,25 @@
   "license": "MIT",
   "description": "PostHTML plugin to add 'rel=\"noopener noreferrer\"' to links that open in a new tab",
   "author": "Eric Liu (https://github.com/metonym)",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "lint": "tslint --fix -p . -c tslint.json",
-    "test": "jest --coverage",
-    "test:tdd": "jest --watch",
-    "prepublishOnly": "yarn build"
+    "prepack": "tsc",
+    "test": "vitest"
   },
   "dependencies": {
-    "posthtml": "^0.12.0"
+    "posthtml": "^0.16.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@types/jest": "^25.1.3",
-    "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "ts-jest": "^25.2.1",
-    "tslint": "^6.0.0",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint && pretty-quick --staged",
-      "pre-push": "yarn test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "semi": true,
-    "singleQuote": true
-  },
-  "jest": {
-    "preset": "ts-jest"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "typescript": "^4.5.5",
+    "vitest": "^0.3.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/metonym/posthtml-noopener.git"
   },
   "homepage": "https://github.com/metonym/posthtml-noopener",
+  "bugs": "https://github.com/metonym/posthtml-noopener/issues",
   "keywords": [
     "html",
     "posthtml",
@@ -62,7 +31,6 @@
     "noreferrer"
   ],
   "files": [
-    "lib"
-  ],
-  "bugs": "https://github.com/metonym/posthtml-noopener/issues"
+    "dist"
+  ]
 }
