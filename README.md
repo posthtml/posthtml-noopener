@@ -20,12 +20,17 @@ Read more about the [`rel="noopener"` attribute](https://mathiasbynens.github.io
 <a href="http://example.com/" target="_blank" rel="noopener noreferrer">Link</a>
 ```
 
-## Install
+## Installation
 
 ```bash
+# Yarn
 yarn add -D posthtml-noopener
-# OR
-npm i posthtml-noopener
+
+# NPM
+npm i -D posthtml-noopener
+
+# pnpm
+pnpm i -D posthtml-noopener
 ```
 
 ## Usage
