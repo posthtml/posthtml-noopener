@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "PostHTML plugin to add 'rel=\"noopener noreferrer\"' to links that open in a new tab",
   "author": "Eric Liu (https://github.com/metonym)",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "prepack": "tsc",
     "test": "vitest"
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "typescript": "^4.7.4",
-    "vitest": "^0.16.0"
+    "vitest": "^0.18.1"
   },
   "repository": {
     "type": "git",
