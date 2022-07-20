@@ -4,9 +4,7 @@
 
 `posthtml-noopener` is a [PostHTML](https://github.com/posthtml/posthtml) plugin to add `rel="noopener noreferrer"` to links that open in a new tab.
 
-Anchor links with the `target="_blank"` attribute [are recommended to include](https://developers.google.com/web/tools/lighthouse/audits/noopener) a `rel="noopener"` or `rel="noreferrer"` attribute to protect against cross-origin sites from exploiting `window.opener`. By default, this plugin includes both attribute values.
-
-Read more about the [`rel="noopener"` attribute](https://mathiasbynens.github.io/rel-noopener/).
+Anchor links with the `target="_blank"` attribute [are recommended to include](https://developers.google.com/web/tools/lighthouse/audits/noopener) a `rel="noopener"` or `rel="noreferrer"` attribute to [protect against cross-origin sites](https://mathiasbynens.github.io/rel-noopener/) from exploiting `window.opener`. By default, this plugin includes both attribute values.
 
 **Before:**
 
